@@ -1,6 +1,12 @@
 This package contains a fix rhok command that calculate the Fourier Transform
 of the density and apply the biasing potential to control centain wave vectors.
 
+In order to install this package, make a directory 'USR-RHOK' under 'src' folder.
+Move files 'fix_rhok.cpp', 'fix_rhok.h' and 'Install.sh' into 'src/USR-RHOK/'
+Then from the src directory, this is as simple as:
+	make yes-user-rhok
+	make mpi
+
 Currently, the package has the following features:
 
 * Compute the certain wave vector of the Fourier Transform Density in x, y or z direction,
