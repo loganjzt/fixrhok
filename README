@@ -1,0 +1,16 @@
+This package contains a fix rhok command that calculate the Fourier Transform
+of the density and apply the biasing potential to control centain wave vectors.
+
+Currently, the package has the following features:
+
+* Compute the certain wave vector of the Fourier Transform Density in x, y or z direction,
+  and output the real and imaginary components.
+
+* Apply the pariabolic biasing potential to control the real or imaginary components of 
+  a certain wave vector.
+
+There are example scripts for using this package in Github.
+
+The person who created this package is Zhitong Jiang (zhitongj@seas.upenn.edu)
+in Amish Patel's Group (pamish@seas.upenn.edu).  Contact them directly
+if you have questions.
